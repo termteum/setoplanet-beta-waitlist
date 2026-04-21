@@ -1,4 +1,4 @@
-# SEtO PLANET beta waitlist
+# SETO PLANET beta waitlist
 
 not dopamine, just serotonin!
 SETO PLANET
