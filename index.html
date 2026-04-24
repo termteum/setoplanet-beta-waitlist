@@ -159,13 +159,26 @@ and live together in the Forest Society. <br /> -->
     
     </div>
   </div>
-  <script>
+  <!-- <script>
     document.getElementById("beta-apply-button").addEventListener("click", function () {
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         event: "beta_apply_click",
         source_page: "beta_waitlist",
         user_type: "guest"
+      });
+    });
+  </script> -->
+  <script>
+    document.getElementById("beta-apply-button").addEventListener("click", function () {
+      window.dataLayer = window.dataLayer || [];
+  
+      window.dataLayer.push({
+        event: "beta_apply_click",
+        source_page: "beta_waitlist",
+        button_name: "beta_apply",
+        user_type: "guest",
+        link_url: this.href
       });
     });
   </script>
