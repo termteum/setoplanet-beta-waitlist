@@ -12,8 +12,7 @@
     })(window,document,'script','dataLayer','GTM-P9WRCMFF');</script>
     <!-- End Google Tag Manager -->
   <title>SETO PLANET Beta Waitlist</title>
-  
-
+  <style>
  
     * {
       box-sizing: border-box;
@@ -160,5 +159,15 @@ and live together in the Forest Society. <br /> -->
     
     </div>
   </div>
+  <script>
+    document.getElementById("beta-apply-button").addEventListener("click", function () {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "beta_apply_click",
+        source_page: "beta_waitlist",
+        user_type: "guest"
+      });
+    });
+  </script>
 </body>
 </html>
